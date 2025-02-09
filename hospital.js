@@ -26,14 +26,7 @@ const users=[{
 
 }];
 
-function filterkidneys(n){
-    if(n.healthy){
-        return true;
 
-    }
-    return false;
-
-}
 
 
 app.get("/", function(req , res){
